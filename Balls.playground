@@ -1,0 +1,6 @@
+import PlaygroundSupport
+import UIKit
+
+let balls = Balls(colors: [UIColor.white, UIColor.green, UIColor.red])
+
+PlaygroundPage.current.liveView = balls
